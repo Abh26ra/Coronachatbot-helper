@@ -1,0 +1,37 @@
+
+  
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    
+text-align: center;
+margin: auto;
+color:red;
+padding: 20px;
+border-width: 1px;
+border-style: solid;
+border-color: black;
+background-color: black;
+
+}
+body{
+    
+    background-image:url(c.jpeg) ;
+}
+.background{
+    width: 830px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    border-radius: 80%;
+}
